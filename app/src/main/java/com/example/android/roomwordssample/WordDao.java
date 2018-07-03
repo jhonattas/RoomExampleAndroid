@@ -15,13 +15,12 @@ package com.example.android.roomwordssample;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-import android.arch.lifecycle.LiveData;
-import android.arch.persistence.room.Dao;
-import android.arch.persistence.room.Insert;
-import android.arch.persistence.room.Query;
-
 import java.util.List;
+
+import androidx.lifecycle.LiveData;
+import androidx.room.Dao;
+import androidx.room.Insert;
+import androidx.room.Query;
 
 /**
  * The Room Magic is in this file, where you map a Java method call to an SQL query.

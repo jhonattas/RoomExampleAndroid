@@ -17,10 +17,11 @@ package com.example.android.roomwordssample;
  */
 
 import android.app.Application;
-import android.arch.lifecycle.LiveData;
 import android.os.AsyncTask;
 
 import java.util.List;
+
+import androidx.lifecycle.LiveData;
 
 /**
  * Abstracted Repository as promoted by the Architecture Guide.
